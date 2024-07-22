@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>
+            welcome to html
+        </p>
+        <h1>
+            hi html
+        </h1>
+        <pre>
+            <b>
+            this is kusma 
+            i am studying btech
+            my cgpa
+            </b>
+            <i>
+                hi bro how are 
+            </i>
+            <strong>
+                this is kusumesh
+            </strong>
+
+            <mark>
+                this is kushhhhhh
+            </mark>
+            <del>
+                this is klu
+            </del>
+
+            <ins>
+                this is scts
+            </ins>
+
+            <sup>
+                this is a supertext
+            </sup>
+
+
+            <sub>
+                this is subscript
+            </sub>
+
+            <dl>HTML</dl>
+            <dd>hpertext markup language</dd>
+
+            <dl>css</dl>
+            <dd>cascading style sheets</dd>
+
+
+
+
+            <ul type = 'disc'>
+                <li>apple</li>
+                <li>mango</li>
+                <li>banana</li>
+            </ul>
+
+        </pre>
+
+        <figure>
+            <img src ="https://images.app.goo.gl/ZpwZR7VdNrs8jC7P7">
+            <figcaption>aliabhatt</figcaption>
+        </figure>
+
+
+
+        <form action="https://forms.gle/CQx6L1WtSmbctdJWA" method="get"> 
+         //input controls e.g. textfield, textarea, radiobutton, button  </form>
+
+
+
+         <h1>The progress element</h1>
+         <label for="file">Downloading progress:</label>
+         <progress id="file" value="32" max="100"> 32% </progress>
+
+
+
+         <h5>email addresss=</h5><input type=”checkbox”>
+
+         <h5>number</h5><input type=”checkbox”>
+         <h5>range</h5><input type=”checkbox”>
+         <h5>url</h5><input type=”checkbox”>
+         <h5>month</h5><input type=”checkbox”>
+         
+
+
+         <form>
+            <label>Name:</label>
+            <input type="text" name="name" value="">
+              <br><br>
+    
+            <label>E-mail:</label>
+            <input type="email" name="emailaddress">
+              <br><br>
+    
+            <label>Password: </label>
+            <input type="password" name="password">
+              <br><br>
+    
+            <input type="submit">
+        </form>
+
+
+
+
+
+        <head>
+            <title>
+                Select multiple files using HTML Input tag
+            </title>
+            <style>
+                h1 {
+                    color: red;
+                }
+                 
+                .container {
+                    text-align: center;
+                    width: 850px;
+                    margin: 35px;
+                }
+                 
+                .property {
+                    width: 400px ;
+                    float: left;
+                    border: 2px solid grey;
+                    padding: 10px;
+                }
+                .attribute {
+                    width: 400px ;
+                    float: right;
+                    border: 2px solid grey;
+                    padding: 10px;
+                }
+            </style>
+        </head>
+         
+        <body>
+            <div class="container">
+                <h1>GeeksforGeeks</h1>
+                <b>A Computer Science Portal for Geeks</b>
+                <br><br>
+                <div class="property">
+                     
+        <p>
+                        Input Multiple Files using Input Tag, 
+                        <b>'multiple property'</b>
+                    </p>
+         
+                    <form action="/action_page_inputtags_multiplefiles.php">
+                        <label for="files">Select Multiple files:</label>
+                        <input type="file" id="files" name="files" multiple>
+                    </form>
+                </div>
+                <div class="attribute">
+                     
+        <p>
+                        Input Multiple Files using Input Tag, 
+                        <b>'multiple attribute'</b>
+                    </p>
+         
+                    <form action="/action_page_inputtags_multiplefiles.php">
+                        <label for="files">Select Multiple files:</label>
+                        <input type="file" id="files" name="files"
+                                                      multiple="multiple">
+                    </form>
+                </div>
+        </body>
+         
+        </html>
+    </body>
+
+
+
+
+</html>
